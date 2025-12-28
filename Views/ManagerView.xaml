@@ -89,7 +89,7 @@
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
-                        <Button Grid.Column="0" Height="36" Margin="0,0,6,0"
+                        <Button Grid.Column="0" Height="35" Margin="0,0,6,0"
                                 Style="{StaticResource CustomButton}" Click="AddCategory_Click">
                             <StackPanel Orientation="Horizontal">
                                 <Path Data="{StaticResource Icon.Add}" 
@@ -101,7 +101,7 @@
                                 <TextBlock Text="Add" FontSize="13" FontWeight="Medium"/>
                             </StackPanel>
                         </Button>
-                        <Button Grid.Column="1" Height="36" Margin="6,0,0,0"
+                        <Button Grid.Column="1" Height="35" Margin="6,0,0,0"
                                 Style="{StaticResource CustomButton}" Click="DeleteCategory_Click">
                             <StackPanel Orientation="Horizontal">
                                 <Path Data="{StaticResource Icon.Delete}" 
@@ -310,7 +310,7 @@
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
-                        <Button Grid.Column="0" Height="36" Margin="0,0,6,0"
+                        <Button Grid.Column="0" Height="35" Margin="0,0,6,0"
                                 Style="{StaticResource CustomButton}" Click="AddFile_Click">
                             <StackPanel Orientation="Horizontal">
                                 <Path Data="{StaticResource Icon.Add}" 
@@ -322,7 +322,7 @@
                                 <TextBlock Text="Add" FontSize="13" FontWeight="Medium"/>
                             </StackPanel>
                         </Button>
-                        <Button Grid.Column="1" Height="36" Margin="3,0"
+                        <Button Grid.Column="1" Height="35" Margin="3,0"
                                 Style="{StaticResource CustomButton}" Click="ToggleFile_Click">
                             <StackPanel Orientation="Horizontal">
                                 <Path Data="{StaticResource Icon.Enable}" 
@@ -334,7 +334,7 @@
                                 <TextBlock Text="Toggle" FontSize="13" FontWeight="Medium"/>
                             </StackPanel>
                         </Button>
-                        <Button Grid.Column="2" Height="36" Margin="6,0,0,0"
+                        <Button Grid.Column="2" Height="35" Margin="6,0,0,0"
                                 Style="{StaticResource CustomButton}" Click="DeleteFile_Click">
                             <StackPanel Orientation="Horizontal">
                                 <Path Data="{StaticResource Icon.Delete}" 

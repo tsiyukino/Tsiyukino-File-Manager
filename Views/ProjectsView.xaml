@@ -41,7 +41,7 @@
                 </StackPanel>
 
                 <Button Grid.Column="1"
-                        Height="48"
+                        Height="40"
                         Padding="24,0"
                         Style="{StaticResource PrimaryButton}"
                         Click="AddGame_Click"

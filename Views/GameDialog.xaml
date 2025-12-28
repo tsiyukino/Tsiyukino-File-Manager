@@ -14,9 +14,9 @@
         </Border.Effect>
         <Grid Margin="8">
             <Grid.RowDefinitions>
-                <RowDefinition Height="80"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="88"/>
+                <RowDefinition Height="73"/>
+                <RowDefinition/>
+                <RowDefinition Height="66"/>
             </Grid.RowDefinitions>
 
             <!-- Header -->
@@ -26,7 +26,7 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="Auto"/>
                     </Grid.ColumnDefinitions>
-                    
+
                     <StackPanel Grid.Column="0" Orientation="Horizontal">
                         <Path Data="{StaticResource Icon.Games}" 
                               Fill="#4285F4" 
@@ -71,7 +71,7 @@
             </Border>
 
             <!-- Content -->
-            <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" Padding="40,32,40,24">
+            <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" Padding="40,32,40,24" Margin="40,30,40,30">
                 <ScrollViewer.Resources>
                     <Style TargetType="ScrollBar">
                         <Setter Property="Width" Value="8"/>
@@ -120,7 +120,7 @@
                                 </Style>
                             </Border.Style>
                             <TextBox x:Name="NameTextBox" 
-                                     Height="52"
+                                     Height="36"
                                      Padding="16,0"
                                      FontSize="15"
                                      Foreground="#202124"
@@ -151,7 +151,7 @@
                                    FontSize="13"
                                    Foreground="#5F6368"
                                    Margin="0,0,0,10"/>
-                        <Grid>
+                        <Grid Height="38">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="12"/>
@@ -174,13 +174,12 @@
                                     </Style>
                                 </Border.Style>
                                 <TextBox x:Name="ImagePathTextBox"
-                                         Height="52"
                                          Padding="16,0"
                                          FontSize="14"
                                          Foreground="#202124"
                                          VerticalContentAlignment="Center"
                                          BorderThickness="0"
-                                         Background="Transparent">
+                                         Background="Transparent" Margin="0,0,0,-1">
                                     <TextBox.Style>
                                         <Style TargetType="TextBox">
                                             <Setter Property="Template">

@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              Background="#F5F5F5">
     <ScrollViewer VerticalScrollBarVisibility="Auto" Padding="40,60,40,40">
-        <StackPanel HorizontalAlignment="Center" MaxWidth="1200">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" MaxWidth="1200">
             <!-- Hero Section -->
             <StackPanel HorizontalAlignment="Center" Margin="0,0,0,60">
                 <TextBlock Text="Welcome to File Manager"
