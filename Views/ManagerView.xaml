@@ -168,20 +168,24 @@
                                   Margin="16,0,0,0"
                                   HorizontalAlignment="Left"/>
                             <TextBox x:Name="SearchBox"
-                                     Height="40" 
-                                     Padding="40,0,16,0" 
                                      VerticalContentAlignment="Center"
+                                     Padding="0"
                                      BorderThickness="0"
                                      Background="Transparent"
                                      Foreground="#202124"
-                                     FontSize="14">
+                                     FontSize="14" Margin="36,5,6,5">
                                 <TextBox.Style>
                                     <Style TargetType="TextBox">
                                         <Setter Property="Template">
                                             <Setter.Value>
                                                 <ControlTemplate TargetType="TextBox">
                                                     <Border Background="{TemplateBinding Background}">
-                                                        <ScrollViewer x:Name="PART_ContentHost" />
+                                                        <ScrollViewer 
+                                                            x:Name="PART_ContentHost" 
+                                                            VerticalAlignment="Center"
+                                                            HorizontalAlignment="Stretch"
+                                                            Padding="0"
+                                                            Focusable="False"/>
                                                     </Border>
                                                 </ControlTemplate>
                                             </Setter.Value>

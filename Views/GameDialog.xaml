@@ -120,13 +120,12 @@
                                 </Style>
                             </Border.Style>
                             <TextBox x:Name="NameTextBox" 
-                                     Height="36"
                                      Padding="16,0"
                                      FontSize="15"
                                      Foreground="#202124"
                                      VerticalContentAlignment="Center"
                                      BorderThickness="0"
-                                     Background="Transparent">
+                                     Background="Transparent" Margin="6,5,6,5">
                                 <TextBox.Style>
                                     <Style TargetType="TextBox">
                                         <Setter Property="Template">
@@ -179,7 +178,7 @@
                                          Foreground="#202124"
                                          VerticalContentAlignment="Center"
                                          BorderThickness="0"
-                                         Background="Transparent" Margin="0,0,0,-1">
+                                         Background="Transparent" Margin="6,5,6,5">
                                     <TextBox.Style>
                                         <Style TargetType="TextBox">
                                             <Setter Property="Template">
@@ -197,7 +196,6 @@
                             </Border>
 
                             <Button Grid.Column="2"
-                                    Height="52"
                                     Width="120"
                                     Style="{StaticResource CustomButton}"
                                     Click="BrowseButton_Click">
@@ -244,7 +242,7 @@
                                      AcceptsReturn="True"
                                      VerticalScrollBarVisibility="Auto"
                                      BorderThickness="0"
-                                     Background="Transparent">
+                                     Background="Transparent" Margin="8,8,8,8">
                                 <TextBox.Resources>
                                     <Style TargetType="ScrollBar">
                                         <Setter Property="Width" Value="8"/>
